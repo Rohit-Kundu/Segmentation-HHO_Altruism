@@ -1,4 +1,6 @@
-% Developed in MATLAB R2017b
+% Authors: Rajarshi Banerjee, Rohit Kundu, Diego Oliva, Ram Sarkar.
+
+% Developed in MATLAB R2018b
 
 clear;
 warning('off','all');
