@@ -5,7 +5,7 @@ warning('off','all');
 close all;
 clc;
 
-%fprintf('\nProcess MCE-LSHADE starts...\n')
+fprintf('\nProcess HHO_Altruism starts...\n')
 Alg_name = 'HHO+altruism'; %Algorithm name
 num_runs= 2; %Number of runs
 pop=50; %Population 
