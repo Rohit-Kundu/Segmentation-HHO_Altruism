@@ -6,7 +6,7 @@ function ind=qilv(I,I2,Ws)
 % Santiago Aja-Fernandez
 %
 % santi@bwh.harhard.edu
-% Accorging to
+% According to
 %
 % S. Aja-Fernández, R. San José Estépar, C. Alberola-López and C.F. Westin,
 % "Image quality assessment based on local variance", EMBC 2006, 
