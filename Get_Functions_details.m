@@ -1,9 +1,7 @@
-    %  Please refer to the main paper:
-
-% Ali Asghar Heidari, Seyedali Mirjalili, Hossam Faris, Ibrahim Aljarah, Majdi Mafarja, Huiling Chen
-% Harris hawks optimization: Algorithm and applications
-% Future Generation Computer Systems, DOI: https://doi.org/10.1016/j.future.2019.02.028
-% _______
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
 
 function [lb,ub,dim,fobj] = Get_Functions_details(F)
 
