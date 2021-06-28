@@ -1,4 +1,7 @@
-% MATLAB code for Cross-Entropy
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
 
 function [fit] = New_loss(x,h)
     
@@ -8,20 +11,17 @@ function [fit] = New_loss(x,h)
         if i == 1  % The 1st Part
             ti = x(i);
 	        ti_1 = 1;
-            %nu(i) = -(mEin(ti_1,ti,h)-(mEin(ti_1,ti,h)/mZero(ti_1,ti,h)))^2; %MSE
             nu(i) = -mEin(ti_1,ti,h)*(1-mEin(ti_1,ti,h)/mZero(ti_1,ti,h)) - log(mEin(ti_1,ti,h))*log((1-mEin(ti_1,ti,h))/mZero(ti_1,ti,h));
             
         
         elseif i> st % Last Part
             ti=256;
 	        ti_1=x(i-1);
-            %nu(i) = -(mEin(ti_1,ti,h)-(mEin(ti_1,ti,h)/mZero(ti_1,ti,h)))^2;
             nu(i) = -mEin(ti_1,ti,h)*(1-mEin(ti_1,ti,h)/mZero(ti_1,ti,h)) - log(mEin(ti_1,ti,h))*log((1-mEin(ti_1,ti,h))/mZero(ti_1,ti,h));
         
         else % Original
             ti=x(i);
 	        ti_1=x(i-1);
-            %nu(i) = -(mEin(ti_1,ti,h)-(mEin(ti_1,ti,h)/mZero(ti_1,ti,h)))^2;
             nu(i) = -mEin(ti_1,ti,h)*(1-mEin(ti_1,ti,h)/mZero(ti_1,ti,h)) - log(mEin(ti_1,ti,h))*log((1-mEin(ti_1,ti,h))/mZero(ti_1,ti,h));
         end
     end
