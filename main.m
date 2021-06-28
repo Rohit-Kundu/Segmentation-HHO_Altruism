@@ -1,6 +1,7 @@
-% Authors: Rajarshi Banerjee, Rohit Kundu, Diego Oliva, Ram Sarkar.
-
-% Developed in MATLAB R2018b
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
 
 clear;
 warning('off','all');
