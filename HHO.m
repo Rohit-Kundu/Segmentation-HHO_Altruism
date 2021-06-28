@@ -1,3 +1,8 @@
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
+
 function [Rabbit_Energy,Rabbit_Location,metrics,time, Iout]=HHO(N,T,lb,ub,dim,Im)
 tic
 format long;
