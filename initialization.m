@@ -1,3 +1,8 @@
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
+
 function [X]=initialization(N,dim,up,down)
 
 if size(up,1)==1
