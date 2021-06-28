@@ -1,4 +1,7 @@
-% MATLAB code for Cross-Entropy
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
 
 function [fit] = cross_entropy(x,h)
     
