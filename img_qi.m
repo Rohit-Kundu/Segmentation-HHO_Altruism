@@ -1,3 +1,8 @@
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
+
 function quality = img_qi(img1, img2, kernelsize)
 
 N = kernelsize.^2;
