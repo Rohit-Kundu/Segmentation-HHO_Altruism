@@ -1,16 +1,7 @@
-%Diego Oliva, Erik Cuevas, Gonzalo Pajares, Daniel Zaldivar y Marco Perez-Cisneros
-%Multilevel Thresholding Segmentation Based on Harmony Search Optimization
-%Universidad Complutense de Madrid / Universidad de Guadalajara
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%The algorithm was published in:
-%Diego Oliva, Erik Cuevas, Gonzalo Pajares, Daniel Zaldivar, and Marco Perez-Cisneros, 
-%“Multilevel Thresholding Segmentation Based on Harmony Search Optimization,” 
-%Journal of Applied Mathematics, vol. 2013, 
-%Article ID 575414, 24 pages, 2013. doi:10.1155/2013/575414
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%Program for Peak Signal to Noise Ratio Calculation
+% Main paper:
+% Segmentation of Brain MRI using an Altruistic Harris Hawks' Optimization algorithm
+% Rajarshi Bandopadhyay, Rohit Kundu, Diego Oliva, Ram Sarkar
+% _____________________________________________________
 
 function PSNRV = PSNR(origImg, distImg)
 
